@@ -1,70 +1,111 @@
-.kuromiHappy
-#kuromiHappy{
-    float: left;
-}
-p {
-  margin-left: 0%;
-  margin-right: 0%;
+body {
+  background: -webkit-linear-gradient(left, #19111f 0%, #2c1e37 100%);
+  background: -moz-linear-gradient(left, #19111f 0%, #2c1e37 100%);
+  background: -o-linear-gradient(left, #19111f 0%, #2c1e37 100%);
+  background: -ms-linear-gradient(left, #19111f 0%, #2c1e37 100%);
+  background: linear-gradient(to right, #19111f 0%, #2c1e37 100%);
+  color: white;
+  background-color: #19111f;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  margin: 50px 100px 0;
 }
 
+sidebar {
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 50px 50px 0;
+  }
+}
+
+a {
+  color: #a085c6;
+  text-decoration: none;
+  font-size: 1em;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+}
+
+a:hover {
+  color: #fcd174;
+  border-color: #fcd174;
+}
 p,
-name {
+span {
+  line-height: 1.5;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+strong {
+  font-weight: bold;
+}
+strong a {
+  border: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 200px;
+  padding: 0 5px 10px 0;
+  position: relative;
+  float: left;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    float: left;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header {
+    width: 100%;
+  }
+}
+header img {
   width: 100%;
-}
-
-#topbar {
-  position: relative;
-}
-
-.topbar {
-  text-align: center;
-  height: 95px;
-  border: thin solid #007e7e;
-  position: relative;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  margin-left: 0px;
-  margin-right: 0px;
   margin-bottom: 20px;
-  background-image: null;
-  overflow: hidden;
-  font-size: 17px;
-  z-index: 1;
-  box-shadow: #ffffff;
 }
-
-p {
-  font-size: 16px;
+header nav ul {
+  margin-bottom: 20px;
 }
-
-.topbar a {
-  height: 90px;
-  padding: 4%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-image: null;
-  overflow: hidden;
-  font-size: 17px;
-  border: 4px;
-  border-color: #007e7e;
-  z-index: 2;
+header nav ul li {
+  margin-bottom: 10px;
 }
-.sidebar,
-#rightsidebar,
-#leftsidebar {
-  height: auto;
-  width: 20%;
-  display: none;
+header p {
+  margin-bottom: 20px;
+  width: 80%;
 }
-p {
-  clear: both;
+header small {
+  font-size: 0.7em;
 }
-
-#name {
-  margin-right: 5%;
-  margin-top: 40px;
+@media only screen and (max-width: 600px) {
+  .content {
+    font-size: 16px;
+    border-top: 1px solid #382640;
+    padding: 40px 0 100px;
+    width: 100%;
+    float: right;
+  }
 }
-
-#thesubtitle {
-  display: none;
+@media only screen and (min-width: 600px) {
+  .content {
+    margin-left: 250px;
+    font-size: 16px;
+  }
+}
+.content p {
+  margin-bottom: 30px;
+}
+.content p strong {
+  font-weight: 600;
 }

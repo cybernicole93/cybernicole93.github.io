@@ -1,0 +1,70 @@
+.kuromiHappy
+#kuromiHappy{
+    float: left;
+}
+p {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+p,
+name {
+  width: 100%;
+}
+
+#topbar {
+  position: relative;
+}
+
+.topbar {
+  text-align: center;
+  height: 95px;
+  border: thin solid #007e7e;
+  position: relative;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  background-image: null;
+  overflow: hidden;
+  font-size: 17px;
+  z-index: 1;
+  box-shadow: #ffffff;
+}
+
+p {
+  font-size: 16px;
+}
+
+.topbar a {
+  height: 90px;
+  padding: 4%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: null;
+  overflow: hidden;
+  font-size: 17px;
+  border: 4px;
+  border-color: #007e7e;
+  z-index: 2;
+}
+.sidebar,
+#rightsidebar,
+#leftsidebar {
+  height: auto;
+  width: 20%;
+  display: none;
+}
+p {
+  clear: both;
+}
+
+#name {
+  margin-right: 5%;
+  margin-top: 40px;
+}
+
+#thesubtitle {
+  display: none;
+}

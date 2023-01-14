@@ -1,3 +1,3 @@
-This is a test place I will someday make this my git pages blog.
+# web-platform-dagtvq
 
-But now it only has placeholder text, and no, I did not write it.
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-dagtvq)

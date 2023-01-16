@@ -9,7 +9,10 @@
   "scripts": {
     "start": "electron ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "sass": "^1.57.1",
+    "scss": "^0.2.4"
+  },
   "devDependencies": {
     "electron": "22.0.0"
   }
